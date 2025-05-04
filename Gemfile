@@ -58,3 +58,7 @@ group :development do
   gem "web-console"
 end
 
+
+group :development, :test do
+  gem "rspec-rails"
+end
